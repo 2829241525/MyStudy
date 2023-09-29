@@ -1,0 +1,52 @@
+https://open.weixin.qq.com/connect/qrconnect?
+appid=wx827225356b689e24
+&state=E04BF0467DAAFE7712DE9C028125CE70A2794C900B4FC584C276B69B6D491C74EFD0BB610C6727D09CDEE6FB5305BB82
+&redirect_uri=https://qq.jd.com/new/wx/callback.action?view=null
+&uuid=a83173c972a240e0ac72b6ad7cfd097c
+&response_type=code
+&scope=snsapi_login#wechat_redirect
+
+
+appid        微信开发平台注册京东商城app      appid  appsecret     redirect_uri
+redirect_uri=https://qq.jd.com/new/wx/callback.action?view=null    (京东商城接口)
+response_type=code       授权码模式（oauth2的四种模式之一）
+
+
+微信扫描登录，允许授权
+
+https://qq.jd.com/new/wx/callback.action?view=null
+&uuid=a83173c972a240e0ac72b6ad7cfd097c
+&code=081NZN1w3vcZdZ2D9O3w37tPAg4NZN17
+&state=E04BF0467DAAFE7712DE9C028125CE70A2794C900B4FC584C276B69B6D491C74EFD0BB610C6727D09CDEE6FB5305BB82
+
+
+code=081NZN1w3vcZdZ2D9O3w37tPAg4NZN17    
+
+   token（用于资源访问（微信相关信息： 用户名 头像）   第一次 关联京东账号）
+
+
+利用code获取access_token     /oauth2/access_token
+https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code
+
+
+https://api.weibo.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&response_type=code&redirect_uri=YOUR_REGISTERED_REDIRECT_URI
+
+https://api.weibo.com/oauth2/access_token?client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET&grant_type=authorization_code&redirect_uri=YOUR_REGISTERED_REDIRECT_URI&code=CODE
+
+/user/info?access_token=xxxxx
+
+
+http://localhost:8080/oauth/authorize?response_type=code&client_id=client&redirect_uri=http://www.baidu.com&scope=all
+
+
+
+# spring security oauth2
+授权接口 /oauth/authorize            
+获取token接口  /oauth/token
+校验token接口 /oauth/check_token
+
+
+
+
+
+
