@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DataAnalysis" />
+        <module name="designpattern" />
         <module name="oauth2-demo" />
         <module name="Security" />
         <module name="Common" />
@@ -17,6 +18,7 @@
       <module name="Common" target="1.8" />
       <module name="DataAnalysis" target="1.8" />
       <module name="design" target="1.8" />
+      <module name="designpattern" target="1.8" />
       <module name="oauth2-demo" target="1.8" />
       <module name="Security" target="1.8" />
     </bytecodeTargetLevel>
