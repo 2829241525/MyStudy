@@ -1,0 +1,5 @@
+package com.design.j2ee.mvc;
+
+public class test6 {
+
+}

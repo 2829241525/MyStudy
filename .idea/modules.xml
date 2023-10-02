@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/DataAnalysis/DataAnalysis.iml" filepath="$PROJECT_DIR$/DataAnalysis/DataAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MyStudy.iml" filepath="$PROJECT_DIR$/.idea/MyStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Security/Security.iml" filepath="$PROJECT_DIR$/Security/Security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design/design.iml" filepath="$PROJECT_DIR$/design/design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling/oauth2-demo/oauth2-demo.iml" filepath="$PROJECT_DIR$/tuling/oauth2-demo/oauth2-demo.iml" />
     </modules>
   </component>
 </project>

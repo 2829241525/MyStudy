@@ -4,5 +4,9 @@
     <file url="file://$PROJECT_DIR$/Common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DataAnalysis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuling/oauth2-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../mavenStore/org/springframework/boot/spring-boot-starter-parent/2.3.5.RELEASE/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../mavenStore/org/springframework/boot/spring-boot-starter-parent/2.6.6/src/main/resources" charset="UTF-8" />
   </component>
 </project>

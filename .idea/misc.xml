@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/DataAnalysis/pom.xml" />
         <option value="$PROJECT_DIR$/Security/pom.xml" />
         <option value="$PROJECT_DIR$/Common/pom.xml" />
+        <option value="$PROJECT_DIR$/tuling/oauth2-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/design/pom.xml" />
       </list>
     </option>
   </component>

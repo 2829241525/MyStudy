@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Security" />
         <module name="DataAnalysis" />
+        <module name="oauth2-demo" />
+        <module name="Security" />
         <module name="Common" />
+        <module name="design" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Common" target="1.8" />
       <module name="DataAnalysis" target="1.8" />
+      <module name="design" target="1.8" />
+      <module name="oauth2-demo" target="1.8" />
       <module name="Security" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -22,6 +26,8 @@
       <module name="Common" options="-parameters" />
       <module name="DataAnalysis" options="-parameters" />
       <module name="Security" options="-parameters" />
+      <module name="design" options="-parameters" />
+      <module name="oauth2-demo" options="-parameters" />
     </option>
   </component>
 </project>
