@@ -9,6 +9,7 @@
         <module name="DataAnalysis" />
         <module name="designpattern" />
         <module name="netty-basic" />
+        <module name="design" />
         <module name="oauth2-demo" />
         <module name="netty-adv" />
         <module name="Security" />
