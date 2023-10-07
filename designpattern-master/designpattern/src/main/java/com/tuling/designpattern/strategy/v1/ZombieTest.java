@@ -48,6 +48,9 @@ class FlagZombie extends AbstractZombie{
         System.out.println( "我是旗手僵尸" );
     }
 
+    public void move() {
+        System.out.println( "跳跃." );
+    }
 }
 
 

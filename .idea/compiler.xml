@@ -8,19 +8,27 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DataAnalysis" />
         <module name="designpattern" />
+        <module name="netty-basic" />
         <module name="oauth2-demo" />
+        <module name="netty-adv" />
         <module name="Security" />
+        <module name="netty-http" />
         <module name="Common" />
-        <module name="design" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bio" target="1.8" />
       <module name="Common" target="1.8" />
       <module name="DataAnalysis" target="1.8" />
       <module name="design" target="1.8" />
       <module name="designpattern" target="1.8" />
+      <module name="ketang-rpc-s" target="1.8" />
+      <module name="netty-adv" target="8" />
+      <module name="netty-basic" target="8" />
+      <module name="netty-http" target="8" />
       <module name="oauth2-demo" target="1.8" />
       <module name="Security" target="1.8" />
+      <module name="vip-v3-netty" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

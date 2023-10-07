@@ -9,6 +9,10 @@
         <option value="$PROJECT_DIR$/tuling/oauth2-demo/pom.xml" />
         <option value="$PROJECT_DIR$/design/pom.xml" />
         <option value="$PROJECT_DIR$/designpattern-master/designpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/ketang-tl-netty/pom.xml" />
+        <option value="$PROJECT_DIR$/ketang-tl-rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/ketang-tl-netty/netty-adv/pom.xml" />
+        <option value="$PROJECT_DIR$/ketang-tl-netty/bio/pom.xml" />
       </list>
     </option>
   </component>

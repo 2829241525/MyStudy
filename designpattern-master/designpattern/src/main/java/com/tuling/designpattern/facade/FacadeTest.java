@@ -4,64 +4,50 @@ package com.tuling.designpattern.facade;
  * @author 腾讯课堂-图灵学院  郭嘉
  * @Slogan 致敬大师，致敬未来的你
  */
+
+
 public class FacadeTest {
     public static void main(String[] args) {
-
-
+        Facade facade = new Facade();
+        facade.operation();
+    }
+}
+// 子系统A
+class SubsystemA {
+    public void operationA() {
+        System.out.println("Subsystem A operation");
     }
 }
 
-class Client1 {
-
-    Facade facade=new Facade();
-
-    public void doSomething1() {
-        facade.doSomethingFacade();
+// 子系统B
+class SubsystemB {
+    public void operationB() {
+        System.out.println("Subsystem B operation");
     }
-
 }
 
-class Client2 {
-
-    Facade facade=new Facade();
-
-    public void doSomething2() {
-        facade.doSomethingFacade();
+// 子系统C
+class SubsystemC {
+    public void operationC() {
+        System.out.println("Subsystem C operation");
     }
-
 }
 
-
+// 门面类
 class Facade {
+    private SubsystemA subsystemA;
+    private SubsystemB subsystemB;
+    private SubsystemC subsystemC;
 
-    SubSystem1 subSystem1=new SubSystem1();
-    SubSystem2 subSystem2=new SubSystem2();
-    SubSystem3 subSystem3=new SubSystem3();
-
-    public void doSomethingFacade() {
-        subSystem1.method1();
-        subSystem2.method2();
-        subSystem3.method3();
+    public Facade() {
+        subsystemA = new SubsystemA();
+        subsystemB = new SubsystemB();
+        subsystemC = new SubsystemC();
     }
 
-
-}
-
-
-class SubSystem1 {
-    public void method1() {
-        System.out.println( " SubSystem1.method1 executed. " );
-    }
-}
-
-class SubSystem2 {
-    public void method2() {
-        System.out.println( " SubSystem2.method2 executed. " );
-    }
-}
-
-class SubSystem3 {
-    public void method3() {
-        System.out.println( " SubSystem3.method3 executed. " );
+    public void operation() {
+        subsystemA.operationA();
+        subsystemB.operationB();
+        subsystemC.operationC();
     }
 }

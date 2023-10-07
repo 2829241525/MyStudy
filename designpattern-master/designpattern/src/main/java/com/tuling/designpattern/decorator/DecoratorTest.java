@@ -14,6 +14,8 @@ public class DecoratorTest {
 interface Component{
     void operation();
 }
+
+
 class ConcreteComponent implements Component{
 
     @Override
@@ -21,6 +23,9 @@ class ConcreteComponent implements Component{
         System.out.println("拍照.");
     }
 }
+
+
+
 abstract class Decorator implements Component{
     Component component;
 
@@ -28,6 +33,7 @@ abstract class Decorator implements Component{
         this.component=component;
     }
 }
+
 
 class ConreteDecorator1 extends Decorator{
 
