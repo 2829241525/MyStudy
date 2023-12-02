@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DataAnalysis/DataAnalysis.iml" filepath="$PROJECT_DIR$/DataAnalysis/DataAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MyStudy.iml" filepath="$PROJECT_DIR$/.idea/MyStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Security/Security.iml" filepath="$PROJECT_DIR$/Security/Security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/designpattern-master/design/design.iml" filepath="$PROJECT_DIR$/designpattern-master/design/design.iml" />
       <module fileurl="file://$PROJECT_DIR$/designpattern-master/designpattern/designpattern.iml" filepath="$PROJECT_DIR$/designpattern-master/designpattern/designpattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ketang-tl-rpc/ketang-rpc-s.iml" filepath="$PROJECT_DIR$/ketang-tl-rpc/ketang-rpc-s.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ketang-tl-netty/netty-adv/netty-adv.iml" filepath="$PROJECT_DIR$/ketang-tl-netty/netty-adv/netty-adv.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ketang-tl-netty/netty-basic/netty-basic.iml" filepath="$PROJECT_DIR$/ketang-tl-netty/netty-basic/netty-basic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ketang-tl-netty/netty-http/netty-http.iml" filepath="$PROJECT_DIR$/ketang-tl-netty/netty-http/netty-http.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tuling/oauth2-demo/oauth2-demo.iml" filepath="$PROJECT_DIR$/tuling/oauth2-demo/oauth2-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ketang-tl-netty/vip-v3-netty.iml" filepath="$PROJECT_DIR$/ketang-tl-netty/vip-v3-netty.iml" />
     </modules>
   </component>
 </project>

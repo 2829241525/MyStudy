@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.data</groupId>
-    <artifactId>DataAnalysis</artifactId>
+    <artifactId>security</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>DataAnalysis</name>
-    <description>DataAnalysis</description>
+    <name>security</name>
+    <description>security</description>
     <properties>
         <java.version>8</java.version>
     </properties>

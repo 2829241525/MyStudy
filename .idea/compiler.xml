@@ -6,39 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DataAnalysis" />
         <module name="designpattern" />
+        <module name="DataAnalysis" />
+        <module name="security" />
         <module name="netty-basic" />
+        <module name="common" />
         <module name="design" />
         <module name="oauth2-demo" />
-        <module name="netty-adv" />
-        <module name="Security" />
         <module name="netty-http" />
-        <module name="Common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bio" target="1.8" />
-      <module name="Common" target="1.8" />
-      <module name="DataAnalysis" target="1.8" />
-      <module name="design" target="1.8" />
-      <module name="designpattern" target="1.8" />
-      <module name="ketang-rpc-s" target="1.8" />
-      <module name="netty-adv" target="8" />
-      <module name="netty-basic" target="8" />
-      <module name="netty-http" target="8" />
-      <module name="oauth2-demo" target="1.8" />
-      <module name="Security" target="1.8" />
-      <module name="vip-v3-netty" target="8" />
+      <module name="data_analysis" target="1.8" />
+      <module name="dataAnalysis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Common" options="-parameters" />
       <module name="DataAnalysis" options="-parameters" />
-      <module name="Security" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="dataAnalysis" options="-parameters" />
+      <module name="data_analysis" options="-parameters" />
       <module name="design" options="-parameters" />
       <module name="oauth2-demo" options="-parameters" />
+      <module name="security" options="-parameters" />
     </option>
   </component>
 </project>
